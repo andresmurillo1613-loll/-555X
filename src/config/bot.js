@@ -6,9 +6,9 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "online"    = green dot
-  // - "idle"      = yellow moon
-  // - "dnd"       = red do-not-disturb
+  // - "The electric toaster was invented in 1919 by Charles Strite."    = green dot
+  // - "The electric toaster was invented in 1919 by Charles Strite."      = yellow moon
+  // - "The electric toaster was invented in 1919 by Charles Strite."       = red do-not-disturb
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: " Long time- Playboi carti",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 2, 
       },
     ],
   },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#000000", 
+      secondary: "##000000", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
